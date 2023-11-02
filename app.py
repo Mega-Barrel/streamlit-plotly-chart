@@ -76,24 +76,24 @@ fig.add_annotation(
     showarrow=False
 )
 
-st.markdown(
-    """
-    <style>
-        body{
-            background-color: rgb(244 247 254);
-        }
-        .card {
-            max-width: 800px;
-            border-width: 2px;
-            border-color: rgba(219, 234, 254, 1);
-            border-radius: 2rem;
-            background-color: rgba(255, 255, 255, 1);
-            padding: 1rem;
-            margin: 100px;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+# st.markdown(
+#     """
+#     <style>
+#         body{
+#             background-color: rgb(244 247 254);
+#         }
+#         .card {
+#             max-width: 800px;
+#             border-width: 2px;
+#             border-color: rgba(219, 234, 254, 1);
+#             border-radius: 2rem;
+#             background-color: rgba(255, 255, 255, 1);
+#             padding: 1rem;
+#             margin: 100px;
+#         }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 st.plotly_chart(fig, config={'displayModeBar': False})
